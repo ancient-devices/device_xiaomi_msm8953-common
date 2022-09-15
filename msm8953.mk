@@ -178,11 +178,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0.vendor \
     android.hardware.drm@1.4-service.clearkey
 
-# FM
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
-
 # GPS / Location
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-impl-qti \
@@ -361,7 +356,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    Remove_Packages
+    RemovePackages
 
 # RIL
 PRODUCT_PACKAGES += \
